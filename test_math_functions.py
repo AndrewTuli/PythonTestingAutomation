@@ -16,6 +16,7 @@ class TestMathFunctions(unittest.TestCase):
 
     def test_multiply(self):
         self.assertEqual(multiply(3, 4), 12)
+        self.assertEqual(multiply(5, 5), 25)
 
     def test_power(self):
         self.assertEqual(power(2, 8), 256)
