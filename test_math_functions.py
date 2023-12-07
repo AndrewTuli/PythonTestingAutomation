@@ -7,6 +7,7 @@ class TestMathFunctions(unittest.TestCase):
     def test_add(self):
         assert add(1, 2) == 3
         assert add(2, -3) == -1
+        assert add(5, 5) == 10
 
         # self.assertEqual(add(5, 4), 9)
         # self.assertEqual(add(5, 5), 10)
